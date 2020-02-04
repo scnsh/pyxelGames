@@ -12,7 +12,7 @@ ani_max = 8
 
 while True:
     pyxel.cls(1)
-    ani_no = ( ani_no + 1) % ani_max
+    ani_no = (ani_no + 1) % ani_max
     pyxel.blt(
         WIDTH / 2, HEIGHT / 2,
         IMG_NO,
